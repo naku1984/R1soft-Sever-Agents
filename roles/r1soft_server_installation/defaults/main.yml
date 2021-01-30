@@ -1,2 +1,5 @@
 ---
-# defaults file for r1soft_server
+r1soft_username: admin
+r1soft_password: r1soft2525
+http_port: 8080
+r1soft_port: 1167
