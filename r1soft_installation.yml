@@ -1,14 +1,14 @@
-# - hosts: all
-#   tasks:
-#   - name: install Prerequisites
-#     import_role:
-#       name: r1soft-prerequisites
+- hosts: all
+  tasks:
+  - name: install Prerequisites
+    import_role:
+      name: r1soft-prerequisites
 
-# - hosts: r1soft-server
-#   tasks:
-#   - name: Install R1soft-Server
-#     import_role:
-#       name: r1soft_server_installation
+- hosts: r1soft-server
+  tasks:
+  - name: Install R1soft-Server
+    import_role:
+      name: r1soft_server_installation
 
 - hosts: r1soft_agent
   tasks:
