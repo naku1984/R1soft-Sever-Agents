@@ -1,5 +1,5 @@
 ---
-r1soft_username: admin
-r1soft_password: r1soft2525
+r1soft_username: username
+r1soft_password: password
 http_port: 8080
 r1soft_port: 1167
