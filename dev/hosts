@@ -1,9 +1,9 @@
 [r1soft-server]
-R1soft_Server ansible_host=104.248.61.20
+R1soft_Server ansible_host=
 
 [r1soft_agent]
-test ansible_host=68.183.140.155
-r1soft_agent1 ansible_host=104.248.228.254
-r1soft_agent2 ansible_host=161.35.107.119
-r1soft_agent3 ansible_host=167.99.153.101
-r1soft_agent4 ansible_host=104.248.232.222
+test ansible_host=
+r1soft_agent1 ansible_host=
+r1soft_agent2 ansible_host=
+r1soft_agent3 ansible_host=
+r1soft_agent4 ansible_host=
